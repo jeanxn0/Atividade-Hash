@@ -1,18 +1,43 @@
-## Getting Started
+# 🔐 Tabela Hash com Endereçamento Aberto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> Implementação acadêmica de uma tabela hash em Java usando endereçamento aberto para tratar colisões.
 
-## Folder Structure
+## ✨ Funcionalidades
 
-The workspace contains two folders by default, where:
+- Inserir pares de chave e valor
+- Buscar registros por chave
+- Alterar valores existentes
+- Remover elementos
+- Carregar dados de um arquivo CSV
+- Exibir a tabela durante a execução
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🧠 Conceitos praticados
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Função hash
+- Tratamento de colisões
+- Endereçamento aberto
+- Fator de carga
+- Estruturas de dados genéricas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🛠️ Tecnologia
 
-## Dependency Management
+- Java
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## ▶️ Como executar
+
+```bash
+javac App.java HashEndecamentoAberto.java
+java App
+```
+
+Ao iniciar, informe o caminho de um CSV no formato `chave,valor` ou pressione Enter para continuar sem importar dados.
+
+## 📁 Arquivos principais
+
+- `App.java`: menu e interação com o usuário
+- `HashEndecamentoAberto.java`: implementação da tabela
+- `dados.csv`: conjunto de dados para testes
+
+## 👤 Autor
+
+Desenvolvido por [Jean Carlos Santos](https://github.com/jeanxn0).
